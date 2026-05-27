@@ -1,0 +1,12 @@
+flowchart LR
+    A["Model and product demand"] --> B["Hyperscaler AI capex"]
+    B --> C["GPU / accelerator platforms"]
+    C --> D["HBM capacity and bandwidth"]
+    D --> E["Advanced packaging"]
+    E --> F["Server and rack integration"]
+    F --> G["Data center power and cooling"]
+
+    C -. "NVIDIA / AMD / custom ASICs" .-> C1["Accelerator roadmap"]
+    D -. "SK hynix / Samsung / Micron" .-> D1["HBM3E / HBM4 qualification"]
+    E -. "TSMC CoWoS / OSAT partners" .-> E1["Packaging capacity"]
+

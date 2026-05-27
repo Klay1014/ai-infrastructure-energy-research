@@ -1,0 +1,31 @@
+flowchart TB
+    Dashboard["Quarterly Public Signal Dashboard"]
+
+    Dashboard --> A["Demand"]
+    Dashboard --> B["Accelerators"]
+    Dashboard --> C["HBM Supply"]
+    Dashboard --> D["Packaging"]
+    Dashboard --> E["Deployment"]
+    Dashboard --> F["Risk Label"]
+
+    A --> A1["Hyperscaler capex guidance"]
+    A --> A2["Cloud AI revenue commentary"]
+
+    B --> B1["NVIDIA Data Center revenue"]
+    B --> B2["AMD Data Center revenue"]
+    B --> B3["Accelerator memory specs"]
+
+    C --> C1["HBM3E/HBM4 shipment language"]
+    C --> C2["Supplier qualification status"]
+
+    D --> D1["TSMC advanced packaging comments"]
+    D --> D2["OSAT capacity expansion"]
+
+    E --> E1["AI server shipment estimates"]
+    E --> E2["Power and cooling constraints"]
+
+    F --> F1["Easing"]
+    F --> F2["Stable tightness"]
+    F --> F3["Worsening"]
+    F --> F4["Unclear"]
+

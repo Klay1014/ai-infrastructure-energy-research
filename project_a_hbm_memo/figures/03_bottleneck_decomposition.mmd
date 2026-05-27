@@ -1,0 +1,19 @@
+flowchart LR
+    B["HBM bottleneck"] --> B1["Demand pull"]
+    B --> B2["HBM die capacity"]
+    B --> B3["Stacking and yield"]
+    B --> B4["Qualification cycle"]
+    B --> B5["Advanced packaging"]
+    B --> B6["Capex lead time"]
+    B --> B7["Customer allocation"]
+    B --> B8["Power and cooling"]
+
+    B1 --> S1["Hyperscaler capex; data center revenue"]
+    B2 --> S2["DRAM capex; wafer allocation"]
+    B3 --> S3["HBM3E/HBM4 ramp language"]
+    B4 --> S4["Sampling; qualified; designed-in; volume shipment"]
+    B5 --> S5["TSMC CoWoS / advanced packaging comments"]
+    B6 --> S6["Facility timing; cleanroom constraints"]
+    B7 --> S7["Platform-specific design-ins"]
+    B8 --> S8["Data center buildout; power procurement"]
+
