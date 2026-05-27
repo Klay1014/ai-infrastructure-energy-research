@@ -52,5 +52,4 @@ Each label should link back to public evidence.
 
 I built the full version as a research-process portfolio project: source map, evidence table, cited memo, figures, and claim audit. The goal is to show how public information can be organized into a causal decision framework without making proprietary-data claims.
 
-Full memo and evidence table: [GitHub link here]
-
+Full memo and evidence table: https://github.com/Klay1014/ai-infrastructure-energy-research
