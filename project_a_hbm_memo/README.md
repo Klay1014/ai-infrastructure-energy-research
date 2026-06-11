@@ -8,7 +8,7 @@ This 7-day MVP is a portfolio research project. The goal is not to forecast HBM 
 
 ## Sharp Research Question
 
-Why did high-bandwidth memory become a binding constraint in AI infrastructure scaling, and what public signals can help distinguish between temporary supply tightness and a structurally constrained bottleneck?
+Why did high-bandwidth memory become a visible constraint in AI infrastructure scaling, and what public signals can help distinguish between temporary supply tightness and a structurally constrained bottleneck?
 
 ## Final Deliverable
 
@@ -18,6 +18,7 @@ Current final package:
 
 - `docs/memo_cited_v1.md`: citation-ready memo
 - `docs/one_page_summary.md`: one-page portfolio summary
+- `docs/chinese_summary.md`: Chinese summary for Taiwan-based readers
 - `figures/`: Mermaid and Markdown figure files
 - `data/evidence_table.csv`: source-linked public evidence table
 
@@ -66,16 +67,17 @@ Recommended next polish pass:
 
 - Render Mermaid figure files to PNG/SVG if Mermaid CLI becomes available.
 - Export `docs/memo_cited_v1.md` as PDF or publish it as a Notion page.
-- Add a short Chinese abstract if the final portfolio audience includes Taiwan-based readers.
+- Add a designed PDF version if the final portfolio audience expects a formal report artifact.
 
 ## Suggested Portfolio Presentation
 
 For GitHub:
 
 1. Put `docs/one_page_summary.md` near the top of the repository or paste it into the README.
-2. Link to `docs/memo_cited_v1.md` as the full memo.
-3. Keep `data/evidence_table.csv` visible to show source discipline.
-4. Include the `figures/` Mermaid files as transparent, editable diagram sources.
+2. Link to `docs/chinese_summary.md` for Taiwan-based readers.
+3. Link to `docs/memo_cited_v1.md` as the full memo.
+4. Keep `data/evidence_table.csv` visible to show source discipline.
+5. Include the `figures/` Mermaid files as transparent, editable diagram sources.
 
 For Notion:
 

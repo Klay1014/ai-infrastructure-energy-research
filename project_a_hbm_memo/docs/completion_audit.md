@@ -4,7 +4,7 @@
 
 | Deliverable | Status | What I Have | What Is Still Needed | Source Required | Hallucination / Overclaim Risk |
 |---|---|---|---|---|---|
-| Research Question | Done | A clear question in `README.md`: why HBM became a binding constraint and what public signals distinguish temporary tightness from structural bottleneck | Slight wording polish: "visible constraint" may be safer than "binding constraint" | None | Low-medium; "binding" can imply stronger proof than public data supports |
+| Research Question | Done | A clear question in `README.md`: why HBM became a visible constraint and what public signals distinguish temporary tightness from structural bottleneck | None | None | Low |
 | Memo Outline | Done | `docs/memo_outline.md` and full memo in `docs/memo_cited_v1.md` | No structural gap; final PDF/Notion formatting only | None | Low |
 | Source Map | Done | `data/source_map.csv` covers NVIDIA, AMD, Micron, SK hynix, Samsung, TSMC, Microsoft, Alphabet/Google, Amazon, Meta, TrendForce, SEMI, JEDEC | Could add a few direct power/cooling sources and a TSMC CoWoS explainer if finalizing | Direct data center power/cooling sources; TSMC packaging explainer | Medium in power/cooling and CoWoS definition areas |
 | Evidence Table | Done | `data/evidence_table.csv` has 33 public evidence rows with stable IDs and limitations | Nothing required for Markdown MVP | None | Low |
@@ -12,7 +12,8 @@
 | 7-Day Execution Plan | Done | `README.md` contains realistic day-by-day outputs | Update Day 7 wording to say final Markdown package is complete; PDF optional | None | Low |
 | Cited Memo | Done | `docs/memo_cited_v1.md` has footnotes, references, and claim-audit revisions applied | Nothing required for Markdown MVP | None | Low-medium; remaining risks are clearly framed as limitations |
 | Claim Audit | Done | `docs/claim_audit.md` labels important claims as [F], [I], [H] | Use it to revise memo | None | Low |
-| Final Packaging | Partial | Markdown package is complete for GitHub/Notion | PDF and rendered images not created because local tools unavailable | Pandoc/Mermaid CLI if desired | Low |
+| Chinese Summary | Done | `docs/chinese_summary.md` gives Taiwan-based readers a concise Chinese entry point | None | None | Low |
+| Final Packaging | Partial | Markdown package is complete for GitHub/Notion, including English and Chinese entry points | PDF and rendered images not created because local tools unavailable | Pandoc/Mermaid CLI if desired | Low |
 
 ## Red-Line Check
 
@@ -33,6 +34,7 @@ What is not included in this definition of 100%:
 - No PDF or rendered figure images yet.
 - Rendered PNG/SVG figures are not included because Mermaid CLI is not installed locally.
 - A designed PDF is not included because Pandoc is not installed locally.
+- A Chinese summary is included, but the full memo remains English-first for international portfolio use.
 - The memo is not a proprietary market-sizing product and does not claim exact HBM capacity, allocation, yield, pricing, or forecast.
 
 Why it now meets the Markdown MVP bar:
@@ -51,7 +53,7 @@ Why it now meets the Markdown MVP bar:
 
 1. Render figures to PNG/SVG if Mermaid CLI becomes available.
 2. Export `docs/memo_cited_v1.md` as PDF if Pandoc or another Markdown-to-PDF tool becomes available.
-3. Add a short Chinese abstract if the audience includes Taiwan-based readers.
+3. Keep the Chinese summary short; avoid duplicating the full English memo unless a Taiwan-specific audience requires it.
 
 ## Bottom Line
 

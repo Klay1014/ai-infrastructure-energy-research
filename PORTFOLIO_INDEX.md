@@ -5,6 +5,7 @@
 ### Main Research Memo
 
 - `project_a_hbm_memo/docs/one_page_summary.md`
+- `project_a_hbm_memo/docs/chinese_summary.md`
 - `project_a_hbm_memo/docs/memo_cited_v1.md`
 - `project_a_hbm_memo/data/evidence_table.csv`
 
@@ -31,4 +32,3 @@ Built a public-signal research portfolio analyzing AI infrastructure bottlenecks
 ## Recommended LinkedIn / Substack Bio Line
 
 I write public-signal research memos on AI infrastructure, semiconductor supply chains, power adequacy, and climate-linked electricity constraints.
-

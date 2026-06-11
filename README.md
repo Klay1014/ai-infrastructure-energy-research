@@ -19,11 +19,12 @@ research question
 
 Status: Complete Markdown/GitHub MVP
 
-This project decomposes the HBM bottleneck into AI demand, accelerator architecture, HBM supply, qualification cycles, advanced packaging, and data center deployment constraints.
+This is the main completed project in the repository. It decomposes the HBM bottleneck into AI demand, accelerator architecture, HBM supply, qualification cycles, advanced packaging, and data center deployment constraints.
 
 Start here:
 
 - [One-page summary](project_a_hbm_memo/docs/one_page_summary.md)
+- [Chinese summary](project_a_hbm_memo/docs/chinese_summary.md)
 - [Full cited memo](project_a_hbm_memo/docs/memo_cited_v1.md)
 - [Evidence table](project_a_hbm_memo/data/evidence_table.csv)
 - [Claim audit](project_a_hbm_memo/docs/claim_audit.md)
@@ -88,6 +89,7 @@ project_a_hbm_memo/
   README.md
   docs/
     one_page_summary.md
+    chinese_summary.md
     memo_cited_v1.md
     claim_audit.md
     completion_audit.md
@@ -112,7 +114,7 @@ project_b_power_gap_memo/
 ## Suggested Reading Order
 
 1. Read Project A's [one-page summary](project_a_hbm_memo/docs/one_page_summary.md).
-2. Skim Project A's [full cited memo](project_a_hbm_memo/docs/memo_cited_v1.md).
-3. Inspect Project A's [evidence table](project_a_hbm_memo/data/evidence_table.csv) and [claim audit](project_a_hbm_memo/docs/claim_audit.md).
-4. Read the temperature branch [memo v1](project_b_power_gap_memo/docs/temperature_environment_memo_v1.md) as the next research direction.
-
+2. If you prefer Chinese context first, read Project A's [Chinese summary](project_a_hbm_memo/docs/chinese_summary.md).
+3. Skim Project A's [full cited memo](project_a_hbm_memo/docs/memo_cited_v1.md).
+4. Inspect Project A's [evidence table](project_a_hbm_memo/data/evidence_table.csv) and [claim audit](project_a_hbm_memo/docs/claim_audit.md).
+5. Read the temperature branch [memo v1](project_b_power_gap_memo/docs/temperature_environment_memo_v1.md) as the next research direction.
