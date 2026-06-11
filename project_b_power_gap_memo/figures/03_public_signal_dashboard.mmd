@@ -1,0 +1,27 @@
+flowchart TB
+  A["Quarterly Temperature-Power Monitor"] --> B["Temperature Signals"]
+  A --> C["Load Signals"]
+  A --> D["Supply Signals"]
+  A --> E["Industrial / AI Signals"]
+  A --> F["Risk Label"]
+
+  B --> B1["CWA anomalies"]
+  B --> B2["High-temperature warnings"]
+  B --> B3["Warm nights"]
+
+  C --> C1["Taipower peak load"]
+  C --> C2["Night peak"]
+  C --> C3["Operating reserve margin"]
+
+  D --> D1["New units online"]
+  D --> D2["Renewables and storage"]
+  D --> D3["Demand response"]
+
+  E --> E1["Fab load announcements"]
+  E --> E2["Data center siting"]
+  E --> E3["Clean-power procurement"]
+
+  F --> F1["Easing"]
+  F --> F2["Stable tightness"]
+  F --> F3["Worsening"]
+  F --> F4["Unclear"]

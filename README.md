@@ -37,22 +37,32 @@ Core question:
 
 ### Project B: Global Electricity Demand And Taiwan Power Adequacy
 
-Status: Research design and early memo
+Status: Complete Markdown/GitHub MVP
 
-This project examines whether Taiwan's electricity system is adequate for AI infrastructure and semiconductor growth, with separate attention to annual demand, peak load, night peak, clean-power supply, fuel resilience, and grid constraints.
+This project examines how rising temperature, cooling demand, AI infrastructure, and semiconductor growth can stress Taiwan's electricity system. It separates annual demand, peak load, night peak, operating reserve, clean-power supply, fuel resilience, and grid constraints.
 
 Start here:
 
+- [One-page summary](project_b_power_gap_memo/docs/one_page_summary.md)
+- [Full cited memo](project_b_power_gap_memo/docs/memo_cited_v1.md)
+- [Evidence table](project_b_power_gap_memo/data/evidence_table.csv)
+- [Claim audit](project_b_power_gap_memo/docs/claim_audit.md)
+- [Completion audit](project_b_power_gap_memo/docs/completion_audit.md)
+- [Figures](project_b_power_gap_memo/figures/README.md)
 - [Project B README](project_b_power_gap_memo/README.md)
 - [Power adequacy memo outline](project_b_power_gap_memo/docs/memo_outline.md)
 - [Power source map](project_b_power_gap_memo/data/source_map.csv)
 - [Power figure plan](project_b_power_gap_memo/docs/figure_plan.md)
 
+Core question:
+
+> How does rising temperature in Taiwan affect cooling demand, peak electricity load, night-peak risk, and the adequacy of the power system for AI infrastructure and semiconductor growth?
+
 ### Project B Environmental Branch: Temperature Risk And Electricity Demand In Taiwan
 
-Status: Early memo with evidence table
+Status: Integrated into Project B MVP
 
-This branch focuses on temperature as the primary environmental signal and electricity demand as the transmission channel. It links heat, cooling load, peak demand, night peak, and power adequacy.
+This branch provided the temperature-first framing that is now integrated into Project B's cited memo. It links heat, cooling load, peak demand, night peak, and power adequacy.
 
 Start here:
 
@@ -101,10 +111,15 @@ project_a_hbm_memo/
 project_b_power_gap_memo/
   README.md
   docs/
+    one_page_summary.md
+    memo_cited_v1.md
+    claim_audit.md
+    completion_audit.md
     memo_outline.md
     temperature_environment_memo_v1.md
     temperature_environment_report_outline.md
   data/
+    evidence_table.csv
     source_map.csv
     temperature_source_map.csv
     temperature_evidence_table.csv
@@ -117,4 +132,6 @@ project_b_power_gap_memo/
 2. If you prefer Chinese context first, read Project A's [Chinese summary](project_a_hbm_memo/docs/chinese_summary.md).
 3. Skim Project A's [full cited memo](project_a_hbm_memo/docs/memo_cited_v1.md).
 4. Inspect Project A's [evidence table](project_a_hbm_memo/data/evidence_table.csv) and [claim audit](project_a_hbm_memo/docs/claim_audit.md).
-5. Read the temperature branch [memo v1](project_b_power_gap_memo/docs/temperature_environment_memo_v1.md) as the next research direction.
+5. Read Project B's [one-page summary](project_b_power_gap_memo/docs/one_page_summary.md).
+6. Skim Project B's [full cited memo](project_b_power_gap_memo/docs/memo_cited_v1.md).
+7. Inspect Project B's [evidence table](project_b_power_gap_memo/data/evidence_table.csv) and [claim audit](project_b_power_gap_memo/docs/claim_audit.md).

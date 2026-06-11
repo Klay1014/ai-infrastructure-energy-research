@@ -17,7 +17,7 @@ Data:
 
 Takeaway:
 
-Electricity is becoming a binding input for growth, not just a utility background variable.
+Electricity is becoming a strategic input for growth, not just a utility background variable.
 
 ## Figure 2: Taiwan Electricity System Snapshot
 
@@ -98,4 +98,3 @@ Panels:
 Takeaway:
 
 The useful product is a power adequacy monitor, not a one-time hot take.
-

@@ -1,13 +1,19 @@
-# Global Electricity Demand And Taiwan Power Adequacy
+# Temperature, Electricity Demand, And Taiwan Power Adequacy
 
-Public-signal research memo comparing global electricity demand growth with Taiwan's power adequacy, AI/semiconductor load pressure, and potential electricity gap.
+Public-signal research memo on heat, cooling load, peak risk, and AI infrastructure constraints in Taiwan.
+
+## Status
+
+Complete Markdown/GitHub MVP.
 
 ## Project Direction
 
-This project asks whether Taiwan's electricity system is sufficient for the next phase of AI and semiconductor growth. It should not be framed as a simple "Taiwan will run out of power" claim. The right framing is a power adequacy and bottleneck framework:
+This project asks whether Taiwan's electricity system is sufficient for the next phase of AI and semiconductor growth under rising temperature risk. It should not be framed as a simple "Taiwan will run out of power" claim. The right framing is a temperature-power adequacy and bottleneck framework:
 
 ```text
-Global electricity demand growth
+Rising temperature
+-> cooling demand
+-> afternoon peak and night peak
 -> AI/data center and advanced manufacturing load
 -> Taiwan semiconductor and AI infrastructure demand
 -> annual electricity supply
@@ -18,7 +24,25 @@ Global electricity demand growth
 
 ## Research Question
 
-How does Taiwan's electricity adequacy compare with the global electricity demand surge, and under what public-signal scenarios could Taiwan face an electricity gap for AI infrastructure and semiconductor growth?
+How does rising temperature in Taiwan affect cooling demand, peak electricity load, night-peak risk, and the adequacy of the power system for AI infrastructure and semiconductor growth?
+
+## Current Final Package
+
+- `docs/one_page_summary.md`: one-page portfolio summary
+- `docs/memo_cited_v1.md`: citation-ready memo
+- `data/evidence_table.csv`: source-linked public evidence table
+- `docs/claim_audit.md`: fact/inference/hypothesis audit
+- `docs/completion_audit.md`: completion checklist
+- `figures/`: Mermaid and Markdown figure drafts
+
+Supporting work files:
+
+- `docs/memo_outline.md`: original project outline
+- `docs/temperature_environment_memo_v1.md`: early temperature-first memo
+- `docs/temperature_environment_report_outline.md`: early environmental report outline
+- `data/source_map.csv`: power adequacy source map
+- `data/temperature_source_map.csv`: temperature source map
+- `data/temperature_evidence_table.csv`: early temperature evidence table
 
 ## What "Energy Gap" Means Here
 
@@ -30,7 +54,7 @@ Do not use only annual generation minus annual consumption. Taiwan's risk is mor
 - Clean-power gap: semiconductor customers need low-carbon electricity faster than Taiwan can supply it.
 - Grid/fuel resilience gap: generation exists on paper but is limited by grid, LNG, coal, outage, or transmission constraints.
 
-## Minimum Deliverable
+## Deliverable
 
 A 6-10 page memo with:
 
@@ -43,6 +67,8 @@ A 6-10 page memo with:
 7. Risk matrix
 8. What to track next
 9. Limitations
+
+This is complete in `docs/memo_cited_v1.md`.
 
 ## Current Best Sources To Start
 
@@ -65,9 +91,12 @@ A 6-10 page memo with:
 
 ## Suggested Portfolio Positioning
 
-AI Infrastructure Energy Constraint Research
+AI Infrastructure Energy Constraint Research.
 
 Secondary positioning:
 
 Public-signal power adequacy framework for semiconductor and AI infrastructure planning.
 
+## Current Best Version
+
+Use `docs/memo_cited_v1.md` as the current memo draft. Use `docs/one_page_summary.md` as the portfolio entry point.

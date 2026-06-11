@@ -17,6 +17,13 @@
 
 ### Next Research Track
 
+- `project_b_power_gap_memo/docs/one_page_summary.md`
+- `project_b_power_gap_memo/docs/memo_cited_v1.md`
+- `project_b_power_gap_memo/data/evidence_table.csv`
+- `project_b_power_gap_memo/docs/claim_audit.md`
+
+### Supporting Temperature Track
+
 - `project_b_power_gap_memo/docs/temperature_environment_memo_v1.md`
 - `project_b_power_gap_memo/data/temperature_evidence_table.csv`
 - `project_b_power_gap_memo/docs/temperature_figure_plan.md`
